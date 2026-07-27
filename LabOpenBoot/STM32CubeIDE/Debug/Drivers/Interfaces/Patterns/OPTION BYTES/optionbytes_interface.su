@@ -1,0 +1,3 @@
+../Drivers/Interfaces/Patterns/OPTION BYTES/optionbytes_interface.c:56:9:OPENBL_OB_Read	16	static
+../Drivers/Interfaces/Patterns/OPTION BYTES/optionbytes_interface.c:66:6:BL_FLASH_WriteOptKeys	4	static
+../Drivers/Interfaces/Patterns/OPTION BYTES/optionbytes_interface.c:89:6:OPENBL_OB_Write	24	static

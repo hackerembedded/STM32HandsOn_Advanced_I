@@ -1,0 +1,6 @@
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:61:18:Blink	1
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:72:5:main	1
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:118:6:SystemClock_Config	3
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:165:13:MX_USART2_UART_Init	2
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:198:13:MX_GPIO_Init	1
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:231:6:Error_Handler	1

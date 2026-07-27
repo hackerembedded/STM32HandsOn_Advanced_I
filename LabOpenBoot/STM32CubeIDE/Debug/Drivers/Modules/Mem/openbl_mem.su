@@ -1,0 +1,11 @@
+../Drivers/Modules/Mem/openbl_mem.c:41:13:OPENBL_MEM_RegisterMemory	24	static
+../Drivers/Modules/Mem/openbl_mem.c:75:10:OPENBL_MEM_GetAddressArea	24	static
+../Drivers/Modules/Mem/openbl_mem.c:101:10:OPENBL_MEM_GetMemoryIndex	24	static
+../Drivers/Modules/Mem/openbl_mem.c:123:9:OPENBL_MEM_Read	24	static
+../Drivers/Modules/Mem/openbl_mem.c:153:6:OPENBL_MEM_Write	32	static
+../Drivers/Modules/Mem/openbl_mem.c:175:6:OPENBL_MEM_SetReadOutProtection	24	static
+../Drivers/Modules/Mem/openbl_mem.c:210:13:OPENBL_MEM_SetWriteProtection	32	static
+../Drivers/Modules/Mem/openbl_mem.c:242:6:OPENBL_MEM_JumpToAddress	24	static
+../Drivers/Modules/Mem/openbl_mem.c:267:13:OPENBL_MEM_MassErase	32	static
+../Drivers/Modules/Mem/openbl_mem.c:303:13:OPENBL_MEM_Erase	32	static
+../Drivers/Modules/Mem/openbl_mem.c:335:9:OPENBL_MEM_CheckJumpAddress	24	static

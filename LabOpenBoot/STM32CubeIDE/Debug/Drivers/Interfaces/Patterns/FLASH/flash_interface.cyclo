@@ -1,0 +1,16 @@
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:60:6:OPENBL_FLASH_Unlock	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:69:6:OPENBL_FLASH_Lock	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:78:6:OPENBL_FLASH_OB_Unlock	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:89:6:OPENBL_FLASH_OB_Launch	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:99:9:OPENBL_FLASH_Read	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:111:6:OPENBL_FLASH_Write	3
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:138:6:OPENBL_FLASH_JumpToAddress	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:163:10:OPENBL_FLASH_GetReadOutProtectionLevel	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:181:6:OPENBL_FLASH_SetReadOutProtectionLevel	2
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:209:13:OPENBL_FLASH_SetWriteProtection	3
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:237:13:OPENBL_FLASH_MassErase	2
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:271:13:OPENBL_FLASH_Erase	7
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:340:6:OPENBL_Disable_BusyState_Sending	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:353:13:OPENBL_FLASH_ProgramDoubleWord	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:366:20:OPENBL_FLASH_EnableWriteProtection	1
+../Drivers/Interfaces/Patterns/FLASH/flash_interface.c:378:20:OPENBL_FLASH_DisableWriteProtection	1

@@ -1,0 +1,2 @@
+../Drivers/Interfaces/Patterns/IWDG/iwdg_interface.c:38:6:OPENBL_IWDG_Configuration	4	static
+../Drivers/Interfaces/Patterns/IWDG/iwdg_interface.c:54:6:OPENBL_IWDG_Refresh	8	static

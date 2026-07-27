@@ -1,0 +1,14 @@
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:410:22:LL_USART_Enable	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:424:22:LL_USART_Disable	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:1792:26:LL_USART_IsActiveFlag_RXNE	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:1803:26:LL_USART_IsActiveFlag_TC	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:2403:25:LL_USART_ReceiveData8	16	static
+../../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h:2426:22:LL_USART_TransmitData8	16	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:45:13:OPENBL_USART_Init	40	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:67:6:OPENBL_USART_Configuration	40	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:97:6:OPENBL_USART_DeInit	8	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:112:9:OPENBL_USART_ProtocolDetection	8	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:134:9:OPENBL_USART_GetCommandOpcode	16	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:154:9:OPENBL_USART_ReadByte	8	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:169:6:OPENBL_USART_SendByte	16	static
+../Drivers/Interfaces/Patterns/USART/usart_interface.c:184:6:OPENBL_USART_SpecialCommandProcess	16	static

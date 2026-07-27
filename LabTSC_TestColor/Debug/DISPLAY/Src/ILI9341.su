@@ -1,0 +1,10 @@
+../DISPLAY/Src/ILI9341.c:70:6:Display_Reset	8	static
+../DISPLAY/Src/ILI9341.c:78:6:Display_On	8	static
+../DISPLAY/Src/ILI9341.c:85:6:Display_Off	8	static
+../DISPLAY/Src/ILI9341.c:92:6:Display_write_8	32	static
+../DISPLAY/Src/ILI9341.c:174:6:Display_Command_Send	16	static
+../DISPLAY/Src/ILI9341.c:198:6:Display_Command_Send_With_Data	32	static
+../DISPLAY/Src/ILI9341.c:239:6:Display_Command_Send_With_Data16	32	static
+../DISPLAY/Src/ILI9341.c:289:6:Display_Set_Area	32	static
+../DISPLAY/Src/ILI9341.c:315:6:ILI9341_Init	16	static
+../DISPLAY/Src/ILI9341.c:349:6:ILI9341_Draw_Bitmap	40	static

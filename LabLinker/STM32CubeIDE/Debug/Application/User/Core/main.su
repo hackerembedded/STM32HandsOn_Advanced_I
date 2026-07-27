@@ -1,0 +1,6 @@
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:61:18:Blink	16	static
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:72:5:main	8	static
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:118:6:SystemClock_Config	88	static
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:165:13:MX_USART2_UART_Init	8	static
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:198:13:MX_GPIO_Init	32	static
+C:/Users/montanab/Inpser/LabLinker/Core/Src/main.c:231:6:Error_Handler	4	static,ignoring_inline_asm

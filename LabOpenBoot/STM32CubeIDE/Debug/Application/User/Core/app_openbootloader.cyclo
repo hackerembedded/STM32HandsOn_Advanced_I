@@ -1,0 +1,3 @@
+../Application/User/Core/app_openbootloader.c:97:6:OpenBootloader_Init	5
+../Application/User/Core/app_openbootloader.c:138:6:OpenBootloader_DeInit	1
+../Application/User/Core/app_openbootloader.c:147:6:OpenBootloader_ProtocolDetection	4

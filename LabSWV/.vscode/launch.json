@@ -1,0 +1,80 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "OpenOCD_Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "serverpath": "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.openocd.win32_2.4.500.202604080855/tools/bin/openocd.exe",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/build/Debug/LabSWV.elf",
+            "device": "STM32F401RETX",
+            "configFiles": [
+                "${workspaceFolder}/.vscode/STM32F4.cfg",
+            ],
+            "searchDir": [
+                "C:/ST/STM32CubeIDE_2.2.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.debug.openocd_2.3.400.202606220929/resources/openocd/st_scripts",
+            ],
+            "svdFile": "${workspaceFolder}/.vscode/STM32F401.svd",
+            "interface": "swd",
+            "runToEntryPoint": "main",
+            "armToolchainPath": "C:/Users/montanab/AppData/Local/stm32cube/bundles/gnu-tools-for-stm32/14.3.1+st.2/bin",
+            "swoConfig": {
+                "source": "probe",
+                "enabled": true,
+                "swoFrequency": 2000000,
+                "cpuFrequency": 84000000,
+                "decoders": [
+                    {
+                        "type": "console",
+                        "label": "Output",
+                        "port": 0,
+                        "showOnStartup": true,
+                        "timestamp": true
+                    },
+
+                    {
+                        "type": "graph",
+                        "port": 1,
+                        "encoding": "unsigned",
+                        "graphId": "1",
+                        "scale": 1,
+                    },
+
+                    {
+                        "type": "binary",
+                        "label": "Output(bin)",
+                        "port": 2,
+                        "encoding": "signed",
+                        "scale": 1,
+                    }
+                ]
+            },
+            "graphConfig": [
+                {
+                    "label": "Graph 1",
+                    "timespan": 5,
+                    "type": "realtime",
+                    "annotate": true,
+                    "minimum": -2000,
+                    "maximum": 2000,
+                    "plots": [
+                        {
+                            "graphId": "1",
+                            "label": "data 1",
+                            "color": "#ff1493"
+                        }
+                    ]
+                }
+            ],
+            "showDevDebugOutput": "raw"
+        }
+    ]
+}
+
+
+
+
+

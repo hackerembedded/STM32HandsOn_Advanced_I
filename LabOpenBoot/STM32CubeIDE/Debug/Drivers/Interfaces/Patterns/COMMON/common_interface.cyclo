@@ -1,0 +1,6 @@
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:40:6:Common_SetMsp	1
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:49:6:Common_EnableIrq	1
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:58:6:Common_DisableIrq	1
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:67:12:Common_GetProtectionStatus	2
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:87:6:Common_SetPostProcessingCallback	1
+../Drivers/Interfaces/Patterns/COMMON/common_interface.c:96:6:Common_StartPostProcessing	2

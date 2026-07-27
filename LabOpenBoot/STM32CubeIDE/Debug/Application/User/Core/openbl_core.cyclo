@@ -1,0 +1,6 @@
+../Application/User/Core/openbl_core.c:40:6:OPENBL_Init	3
+../Application/User/Core/openbl_core.c:57:6:OPENBL_DeInit	1
+../Application/User/Core/openbl_core.c:66:6:OPENBL_InterfacesDeInit	3
+../Application/User/Core/openbl_core.c:83:13:OPENBL_RegisterInterface	2
+../Application/User/Core/openbl_core.c:106:10:OPENBL_InterfaceDetection	4
+../Application/User/Core/openbl_core.c:132:6:OPENBL_CommandProcess	66
