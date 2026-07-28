@@ -1,0 +1,14 @@
+../DISPLAY/Src/touch.c:32:6:TS_Init	8	static
+../DISPLAY/Src/touch.c:37:10:TS_ReadPressure	16	static
+../DISPLAY/Src/touch.c:53:9:TS_IsTouched	16	static
+../DISPLAY/Src/touch.c:61:10:TS_ReadX	16	static
+../DISPLAY/Src/touch.c:76:10:TS_ReadY	16	static
+../DISPLAY/Src/touch.c:91:9:TS_GetState	32	static
+../DISPLAY/Src/touch.c:151:17:TS_ReadX_Avg	16	static
+../DISPLAY/Src/touch.c:161:17:TS_ReadY_Avg	16	static
+../DISPLAY/Src/touch.c:171:16:map_value	24	static
+../DISPLAY/Src/touch.c:184:17:ADC_Read	40	static
+../DISPLAY/Src/touch.c:204:13:GPIO_Output	40	static
+../DISPLAY/Src/touch.c:220:13:GPIO_Input	40	static
+../DISPLAY/Src/touch.c:232:13:GPIO_Analog	40	static
+../DISPLAY/Src/touch.c:244:13:GPIO_RestoreAfterTouch	32	static
