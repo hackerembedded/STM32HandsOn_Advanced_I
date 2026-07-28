@@ -1,0 +1,11 @@
+../Drivers/CMSIS/Include/core_cm4.h:1938:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Core/Src/tictactoe.c:49:5:wins	24	static
+../Core/Src/tictactoe.c:100:13:evaluate_h	24	static
+../Core/Src/tictactoe.c:121:5:game_over	16	static
+../Core/Src/tictactoe.c:134:5:valid_move	16	static
+../Core/Src/tictactoe.c:145:5:set_move	16	static
+../Core/Src/tictactoe.c:167:6:minimax	40	static
+../Core/Src/tictactoe.c:235:6:is_moves_left	16	static
+../Core/Src/tictactoe.c:246:9:ai_turn	16	static
+../Core/Src/tictactoe.c:288:9:human_turn	16	static
+../Core/Src/tictactoe.c:309:6:game_task	8	static
