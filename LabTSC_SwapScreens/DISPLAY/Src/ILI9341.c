@@ -70,23 +70,23 @@ void Display_Set_Area(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1);
 void Display_Reset(void)
 {
 	DISP_NRST_LOW();
-	HAL_Delay(100);
+	HAL_Delay(1);
 	DISP_NRST_HIGH();
-	HAL_Delay(100);
+	HAL_Delay(1);
 }
 
 void Display_On(void)
 {
 	/* Turn the Display ON */
 	Display_Command_Send(DCS_SET_DISPLAY_ON);
-	HAL_Delay(20);
+	HAL_Delay(1);
 }
 
 void Display_Off(void)
 {
 	/* Turn the Display OFF */
 	Display_Command_Send(DCS_SET_DISPLAY_OFF);
-	HAL_Delay(20);
+	HAL_Delay(1);
 }
 
 void Display_write_8(uint8_t data)
@@ -326,21 +326,21 @@ void ILI9341_Init(void)
 
 	/* Sleep Out */
 	Display_Command_Send(DCS_EXIT_SLEEP_MODE);
-	HAL_Delay(100);
+	HAL_Delay(10);
 
 	/* Display Normal mode */
 	Display_Command_Send(DCS_ENTER_NORMAL_MODE);
-	HAL_Delay(100);
+	HAL_Delay(10);
 
 	/* MADCTL: Mirror X */
 	arguments[0] = 0x48;
 	Display_Command_Send_With_Data(DCS_SET_ADDRESS_MODE, arguments, 1);
-	HAL_Delay(100);
+	HAL_Delay(10);
 
 	/* Pixel Format */
 	arguments[0] = 0x05; // RGB565
 	Display_Command_Send_With_Data(DCS_SET_PIXEL_FORMAT, arguments, 1);
-	HAL_Delay(100);
+	HAL_Delay(10);
 
 	/* Turn display on */
 	Display_On();

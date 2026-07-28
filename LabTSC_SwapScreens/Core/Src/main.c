@@ -47,6 +47,7 @@ CRC_HandleTypeDef hcrc;
 
 /* USER CODE BEGIN PV */
 TS_State_t state;
+uint8_t u8TouchTick = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -369,10 +370,11 @@ int main(void)
 	  MX_TouchGFX_Process();
 	  /* USER CODE BEGIN 3 */
 	  touchgfxSignalVSync();
-
-	  TS_GetState(&state);
-
-
+	  if(u8TouchTick > 10)
+	  {
+		  u8TouchTick = 0;
+		  TS_GetState(&state);
+	  }
   }
   /* USER CODE END 3 */
 }
