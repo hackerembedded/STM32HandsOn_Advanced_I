@@ -69,7 +69,7 @@ int __io_putchar(uint8_t ch)
 
 void JumpToBootloader(void)
 {
-	printf("Bootlaoder Start\r\n");
+	printf("Bootloader Start\r\n");
 
 	if(((*(volatile uint32_t*) APP_ADDR) & 0x2FFE0000) == 0x20000000)
 	{
