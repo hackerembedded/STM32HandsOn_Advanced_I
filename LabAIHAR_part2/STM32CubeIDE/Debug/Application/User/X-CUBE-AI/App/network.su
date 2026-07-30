@@ -1,0 +1,13 @@
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:493:9:network_configure_activations	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:534:9:network_configure_weights	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:579:9:ai_network_get_info	160	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:626:9:ai_network_get_report	160	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:673:10:ai_network_get_error	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:680:10:ai_network_create	24	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:691:10:ai_network_create_and_init	88	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:726:12:ai_network_inputs_get	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:737:12:ai_network_outputs_get	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:748:11:ai_network_destroy	16	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:755:9:ai_network_init	24	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:772:8:ai_network_run	24	static
+C:/Users/montanab/Inpser/LabAIHAR/X-CUBE-AI/App/network.c:780:8:ai_network_forward	16	static
