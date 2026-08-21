@@ -53,10 +53,10 @@ The repository is organized as a collection of independent labs and supporting p
 | `LabQueue`                   | FreeRTOS queues                              | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabMutex`                   | FreeRTOS mutexes                             | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabSemaphore`               | FreeRTOS semaphores                          | 🟢 CMake               | **VS Code + STM32Cube extension** |
+| `LabCRC`                     | CRC and firmware integrity                   | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabLinker`                  | Linker scripts and memory organization       | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabApp`                     | STM32 application development                | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabBoot`                    | Bootloader development                       | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
-| `LabCRC`                     | CRC and firmware integrity                   | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabChallenge`               | Practical embedded challenge                 | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `Lab1GUI`                    | Graphics / GUI development                   | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabOpenBoot`                | OpenBootloader                               | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
