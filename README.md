@@ -48,12 +48,12 @@ The repository is organized as a collection of independent labs and supporting p
 | `EmptyProject/STM32F4_Empty` | Minimal STM32F4 project template             | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabUART`                    | UART communication                           | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabEXTI`                    | External interrupts                          | 🟢 CMake               | **VS Code + STM32Cube extension** |
-| `LabLinker`                  | Linker scripts and memory organization       | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabSWV`                     | Serial Wire Viewer / advanced debugging      | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabTasks`                   | FreeRTOS tasks                               | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabQueue`                   | FreeRTOS queues                              | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabMutex`                   | FreeRTOS mutexes                             | 🟢 CMake               | **VS Code + STM32Cube extension** |
 | `LabSemaphore`               | FreeRTOS semaphores                          | 🟢 CMake               | **VS Code + STM32Cube extension** |
+| `LabLinker`                  | Linker scripts and memory organization       | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabApp`                     | STM32 application development                | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabBoot`                    | Bootloader development                       | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
 | `LabCRC`                     | CRC and firmware integrity                   | 🔵 Makefile / Eclipse  | **STM32CubeIDE**                  |
